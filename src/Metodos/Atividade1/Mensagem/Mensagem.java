@@ -12,7 +12,7 @@ public class Mensagem {
 
     }
     public static void mensagemHora(){
-        if (hora >=0 && hora <=4 || hora >= 18 && hora <=23 ){
+        if ((hora >=0 && hora <=4 )|| (hora >= 18 && hora <=23 )){
             System.out.println("Boa noite!");
         }
         else if (hora >=5 && hora <=12 ){
