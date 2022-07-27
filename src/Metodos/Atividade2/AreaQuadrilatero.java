@@ -3,15 +3,15 @@ package Metodos.Atividade2;
 import java.util.Scanner;
 
 public class AreaQuadrilatero {
-    public static float lado1Quadrado;
-    public static float lado2Quadrado;
-    public static float alturaTriangulo;
-    public static float baseTriangulo;
-    public static float baseMaiorTrapezio;
-    public static float baseMenorTrapezio;
-    public static float alturaTrapezio;
-    public static float diagonalMaiorLosango;
-    public static float diagonalMenorLosango;
+    private static float lado1Quadrado;
+    private static float lado2Quadrado;
+    private static float alturaTriangulo;
+    private static float baseTriangulo;
+    private static float baseMaiorTrapezio;
+    private static float baseMenorTrapezio;
+    private static float alturaTrapezio;
+    private static float diagonalMaiorLosango;
+    private static float diagonalMenorLosango;
 
 
     public static void dadosQuadrado(){
